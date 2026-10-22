@@ -1,0 +1,189 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(10, 16, 81);
+    color: aliceblue;
+}
+
+
+nav{
+    display: flex;
+    background-color: rgb(10, 16, 81);
+    color: aliceblue;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    flex-shrink: 1;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+   
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 80px;
+}
+nav a {
+  color: #bbbbb7;             
+  text-decoration: none;     
+  font-family: inherit;
+}
+.logo{
+    float: left;
+    margin-left: 50px;
+}
+.gold{
+    color: #ede34e;
+}
+.button{
+    border: groove rgba(216, 209, 222, 0);
+    border-radius: 10px;
+    background-color: #aea40c;
+    padding: 10px;
+    color: black;
+}
+.lists{
+   
+    display: flex;
+    align-items: center;
+    
+}
+
+.buttonn{
+    color: black;
+    font-weight: 100;
+}
+
+.prac-div{
+    width: 40vw;
+    
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.buttons a{
+    text-decoration: none;
+    
+
+}
+.consultbtn{
+    padding: 20px;
+    background-color: #ede34e;
+    border-radius: 6px;
+    border: 1px solid;
+}
+.telbtn{
+    padding: 20px;
+    background-color:  rgb(10, 16, 81);
+    border-radius: 6px;
+    border: 1px solid rgb(116, 116, 202);
+    
+}
+.telbtn a{
+    color: aliceblue;
+}
+
+button{
+    width: 15vw;
+}
+
+.hr{
+    width: 90vw;
+    
+    margin-left: 50px;
+}
+
+.pracdiv{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    height: 70vh;
+    background-color: rgb(4, 5, 24);
+    width: 91.5vw;
+    padding: 10px;
+    margin-top: 30px;
+   
+}
+.box{
+    background-color:rgb(4, 5, 24);
+    width: 30vw;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.head{
+    margin-left: 50px;
+    background-color:rgb(4, 5, 24);
+    margin-top: 30px;
+}
+.div{
+    background-color:rgb(4, 5, 24);
+}
+.navbar{
+    position: sticky;
+    z-index: o;
+    top: 0;
+
+}
+ 
+.box-container {
+            display: flex;
+            justify-content: center; 
+            gap: 20px;                   
+            max-width: 1200px;
+            margin-left: 30px;
+            flex-wrap: wrap;
+        }
+
+       
+        .boxx {
+            flex: 1;                       
+            background-color:rgb(10, 16, 81);
+            
+            border-radius: 12px;           
+            
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+            transition: transform 0.2s, box-shadow 0.2s; 
+            height: 50vh;
+            width: 5%;
+            flex-wrap: wrap;
+            overflow: hidden;
+            color: #ffffff;
+            backdrop-filter: blur(10px);
+        }
+
+    
+        
+
+        .sech1{
+            margin-left: 30px;
+        }
+        .secp{
+            margin-left: 30px;
+        }
+
+
+        .boxx h2{
+            display: flex;
+            margin-left: 0px;
+        }
+
+        .boxx p{
+            display: flex;
+            margin-left: 0px;
+            color: #bbbbb7;
+        }
+
+
+        
