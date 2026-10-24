@@ -148,7 +148,7 @@ button{
        
         .boxx {
             flex: 1;                       
-            background-color:rgb(10, 16, 81);
+            background-color:rgba(10, 16, 81, 0);
             
             border-radius: 12px;           
             
@@ -160,7 +160,7 @@ button{
             flex-wrap: wrap;
             overflow: hidden;
             color: #ffffff;
-            backdrop-filter: blur(10px);
+            
         }
 
     
@@ -183,6 +183,37 @@ button{
             display: flex;
             margin-left: 0px;
             color: #bbbbb7;
+        }
+        .background-div{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(0, 255, 255, 0);
+            display: flex;
+            justify-content: center;
+            
+
+        }
+        .photo-divs{
+            display: flex;
+            height: 110vh;
+            background-color: #2b057100;
+            width: 93vw;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+            justify-items: center;
+            align-items: center;
+            border-radius: 5px;
+            
+        }
+        .lawyer-box{
+            border: 2px solid rgba(160, 81, 45, 0);
+            background-color: rgba(0, 255, 255, 0);
+            height: 40%;
+            width: 20%;
+            margin-left: 35px;
+            margin-right: 5px;
+            border-radius: 5px;
         }
 
 
